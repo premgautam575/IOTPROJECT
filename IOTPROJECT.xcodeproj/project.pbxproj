@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B5AD8FC2AD7D548001EADF2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B5AD8FB2AD7D548001EADF2 /* GoogleService-Info.plist */; };
+		3B5AD9032AD7E0C2001EADF2 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5AD9022AD7E0C2001EADF2 /* File.swift */; };
+		3B5AD9062AD7F05E001EADF2 /* DailyWeatherViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5AD9042AD7F05E001EADF2 /* DailyWeatherViewCell.swift */; };
+		3B5AD9072AD7F05E001EADF2 /* DailyWeatherViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B5AD9052AD7F05E001EADF2 /* DailyWeatherViewCell.xib */; };
+		3B73009F2AD6B6F4001BF9A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B73009E2AD6B6F4001BF9A4 /* AppDelegate.swift */; };
+		3B7300A12AD6B6F4001BF9A4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7300A02AD6B6F4001BF9A4 /* SceneDelegate.swift */; };
+		3B7300A32AD6B6F4001BF9A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7300A22AD6B6F4001BF9A4 /* ViewController.swift */; };
+		3B7300A62AD6B6F4001BF9A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B7300A42AD6B6F4001BF9A4 /* Main.storyboard */; };
+		3B7300A82AD6B6F5001BF9A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B7300A72AD6B6F5001BF9A4 /* Assets.xcassets */; };
+		3B7300AB2AD6B6F5001BF9A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B7300A92AD6B6F5001BF9A4 /* LaunchScreen.storyboard */; };
+		3B7300B42AD6BA70001BF9A4 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 3B7300B32AD6BA70001BF9A4 /* FirebaseAnalytics */; };
+		3B7300B62AD6BA70001BF9A4 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 3B7300B52AD6BA70001BF9A4 /* FirebaseAuth */; };
+		3B7300BD2AD6C42B001BF9A4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7300BB2AD6C42B001BF9A4 /* LoginViewController.swift */; };
+		3B7300BE2AD6C42B001BF9A4 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B7300BC2AD6C42B001BF9A4 /* LoginViewController.xib */; };
+		3B7300C12AD6C442001BF9A4 /* RegisterationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7300BF2AD6C442001BF9A4 /* RegisterationViewController.swift */; };
+		3B7300C22AD6C442001BF9A4 /* RegisterationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B7300C02AD6C442001BF9A4 /* RegisterationViewController.xib */; };
+		3B7300C52AD6DD58001BF9A4 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7300C32AD6DD58001BF9A4 /* ProfileViewController.swift */; };
+		3B7300C62AD6DD58001BF9A4 /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B7300C42AD6DD58001BF9A4 /* ProfileViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3B5AD8FB2AD7D548001EADF2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3B5AD9022AD7E0C2001EADF2 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		3B5AD9042AD7F05E001EADF2 /* DailyWeatherViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyWeatherViewCell.swift; sourceTree = "<group>"; };
+		3B5AD9052AD7F05E001EADF2 /* DailyWeatherViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DailyWeatherViewCell.xib; sourceTree = "<group>"; };
+		3B73009B2AD6B6F4001BF9A4 /* IOTPROJECT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOTPROJECT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B73009E2AD6B6F4001BF9A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3B7300A02AD6B6F4001BF9A4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3B7300A22AD6B6F4001BF9A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3B7300A52AD6B6F4001BF9A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B7300A72AD6B6F5001BF9A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B7300AA2AD6B6F5001BF9A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B7300AC2AD6B6F5001BF9A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B7300BB2AD6C42B001BF9A4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3B7300BC2AD6C42B001BF9A4 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		3B7300BF2AD6C442001BF9A4 /* RegisterationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterationViewController.swift; sourceTree = "<group>"; };
+		3B7300C02AD6C442001BF9A4 /* RegisterationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterationViewController.xib; sourceTree = "<group>"; };
+		3B7300C32AD6DD58001BF9A4 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		3B7300C42AD6DD58001BF9A4 /* ProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B7300982AD6B6F4001BF9A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B7300B42AD6BA70001BF9A4 /* FirebaseAnalytics in Frameworks */,
+				3B7300B62AD6BA70001BF9A4 /* FirebaseAuth in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B5AD8FD2AD7DFA0001EADF2 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3B7300BB2AD6C42B001BF9A4 /* LoginViewController.swift */,
+				3B7300BC2AD6C42B001BF9A4 /* LoginViewController.xib */,
+				3B7300BF2AD6C442001BF9A4 /* RegisterationViewController.swift */,
+				3B7300C02AD6C442001BF9A4 /* RegisterationViewController.xib */,
+				3B7300C32AD6DD58001BF9A4 /* ProfileViewController.swift */,
+				3B7300C42AD6DD58001BF9A4 /* ProfileViewController.xib */,
+				3B5AD9042AD7F05E001EADF2 /* DailyWeatherViewCell.swift */,
+				3B5AD9052AD7F05E001EADF2 /* DailyWeatherViewCell.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		3B5AD8FE2AD7DFC4001EADF2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3B5AD9022AD7E0C2001EADF2 /* File.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3B7300922AD6B6F4001BF9A4 = {
+			isa = PBXGroup;
+			children = (
+				3B73009D2AD6B6F4001BF9A4 /* IOTPROJECT */,
+				3B73009C2AD6B6F4001BF9A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B73009C2AD6B6F4001BF9A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B73009B2AD6B6F4001BF9A4 /* IOTPROJECT.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B73009D2AD6B6F4001BF9A4 /* IOTPROJECT */ = {
+			isa = PBXGroup;
+			children = (
+				3B5AD8FE2AD7DFC4001EADF2 /* Model */,
+				3B5AD8FD2AD7DFA0001EADF2 /* ViewController */,
+				3B73009E2AD6B6F4001BF9A4 /* AppDelegate.swift */,
+				3B7300A02AD6B6F4001BF9A4 /* SceneDelegate.swift */,
+				3B7300A22AD6B6F4001BF9A4 /* ViewController.swift */,
+				3B7300A42AD6B6F4001BF9A4 /* Main.storyboard */,
+				3B7300A72AD6B6F5001BF9A4 /* Assets.xcassets */,
+				3B7300A92AD6B6F5001BF9A4 /* LaunchScreen.storyboard */,
+				3B7300AC2AD6B6F5001BF9A4 /* Info.plist */,
+				3B5AD8FB2AD7D548001EADF2 /* GoogleService-Info.plist */,
+			);
+			path = IOTPROJECT;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B73009A2AD6B6F4001BF9A4 /* IOTPROJECT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B7300AF2AD6B6F5001BF9A4 /* Build configuration list for PBXNativeTarget "IOTPROJECT" */;
+			buildPhases = (
+				3B7300972AD6B6F4001BF9A4 /* Sources */,
+				3B7300982AD6B6F4001BF9A4 /* Frameworks */,
+				3B7300992AD6B6F4001BF9A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IOTPROJECT;
+			packageProductDependencies = (
+				3B7300B32AD6BA70001BF9A4 /* FirebaseAnalytics */,
+				3B7300B52AD6BA70001BF9A4 /* FirebaseAuth */,
+			);
+			productName = IOTPROJECT;
+			productReference = 3B73009B2AD6B6F4001BF9A4 /* IOTPROJECT.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B7300932AD6B6F4001BF9A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					3B73009A2AD6B6F4001BF9A4 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 3B7300962AD6B6F4001BF9A4 /* Build configuration list for PBXProject "IOTPROJECT" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B7300922AD6B6F4001BF9A4;
+			packageReferences = (
+				3B7300B22AD6BA70001BF9A4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 3B73009C2AD6B6F4001BF9A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B73009A2AD6B6F4001BF9A4 /* IOTPROJECT */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B7300992AD6B6F4001BF9A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B7300C62AD6DD58001BF9A4 /* ProfileViewController.xib in Resources */,
+				3B7300BE2AD6C42B001BF9A4 /* LoginViewController.xib in Resources */,
+				3B7300AB2AD6B6F5001BF9A4 /* LaunchScreen.storyboard in Resources */,
+				3B7300C22AD6C442001BF9A4 /* RegisterationViewController.xib in Resources */,
+				3B7300A82AD6B6F5001BF9A4 /* Assets.xcassets in Resources */,
+				3B7300A62AD6B6F4001BF9A4 /* Main.storyboard in Resources */,
+				3B5AD8FC2AD7D548001EADF2 /* GoogleService-Info.plist in Resources */,
+				3B5AD9072AD7F05E001EADF2 /* DailyWeatherViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B7300972AD6B6F4001BF9A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B7300C52AD6DD58001BF9A4 /* ProfileViewController.swift in Sources */,
+				3B7300A32AD6B6F4001BF9A4 /* ViewController.swift in Sources */,
+				3B7300C12AD6C442001BF9A4 /* RegisterationViewController.swift in Sources */,
+				3B5AD9062AD7F05E001EADF2 /* DailyWeatherViewCell.swift in Sources */,
+				3B73009F2AD6B6F4001BF9A4 /* AppDelegate.swift in Sources */,
+				3B5AD9032AD7E0C2001EADF2 /* File.swift in Sources */,
+				3B7300BD2AD6C42B001BF9A4 /* LoginViewController.swift in Sources */,
+				3B7300A12AD6B6F4001BF9A4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3B7300A42AD6B6F4001BF9A4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B7300A52AD6B6F4001BF9A4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B7300A92AD6B6F5001BF9A4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B7300AA2AD6B6F5001BF9A4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B7300AD2AD6B6F5001BF9A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B7300AE2AD6B6F5001BF9A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B7300B02AD6B6F5001BF9A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 677Z2JX3HG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IOTPROJECT/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.prem.IOTPROJECT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B7300B12AD6B6F5001BF9A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 677Z2JX3HG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IOTPROJECT/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.prem.IOTPROJECT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B7300962AD6B6F4001BF9A4 /* Build configuration list for PBXProject "IOTPROJECT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B7300AD2AD6B6F5001BF9A4 /* Debug */,
+				3B7300AE2AD6B6F5001BF9A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B7300AF2AD6B6F5001BF9A4 /* Build configuration list for PBXNativeTarget "IOTPROJECT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B7300B02AD6B6F5001BF9A4 /* Debug */,
+				3B7300B12AD6B6F5001BF9A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3B7300B22AD6BA70001BF9A4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3B7300B32AD6BA70001BF9A4 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3B7300B22AD6BA70001BF9A4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		3B7300B52AD6BA70001BF9A4 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3B7300B22AD6BA70001BF9A4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3B7300932AD6B6F4001BF9A4 /* Project object */;
+}
